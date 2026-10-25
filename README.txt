@@ -1,14 +1,16 @@
 TAWHEED HADI CONSTRUCTION SERVICES - MULTI-PAGE WEBSITE
 
-Open index.html to start.
+Run a local web server from this folder (clean URLs need HTTP, not opening files directly):
+  npx --yes serve .
+Then open http://localhost:3000/ in your browser.
 
-Pages:
-- index.html
-- about.html
-- services.html
-- projects.html
-- locations.html
-- contact.html
+Pages (URLs without .html):
+- /  (index.html)
+- /about/
+- /services/
+- /projects/
+- /locations/
+- /contact/
 
 Shared assets:
 - assets/styles.css
@@ -18,7 +20,7 @@ Shared assets:
 Before publishing:
 1. Replace placeholder email, phone numbers and office addresses.
 2. Replace sample project categories with verified project case studies.
-3. Connect contact.html form to your backend/email service.
+3. Connect the contact page form to your backend/email service.
 4. Add real licensed project photography if available.
 5. Add Privacy Policy / Terms pages if required.
 
